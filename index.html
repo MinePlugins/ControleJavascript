@@ -24,8 +24,8 @@
         <a href="/" class="item">Page d'accueil</a>
         <div class="ui category search item">
             <div class="ui transparent icon input">
-                <input id="city" class="prompt" type="text" placeholder="Ville...">
-                <i class="search link icon" onkeypress="runScript(event)" onclick="runSub();"></i>
+                <input id="city" class="prompt" type="text" placeholder="Ville..." onkeypress="return runScript(event)">
+                <i class="search link icon" onclick="runSub();"></i>
             </div>
             <div class="results"></div>
         </div>
